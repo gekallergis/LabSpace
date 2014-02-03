@@ -1,4 +1,6 @@
 Proposal/*.aux
 Proposal/*.log
+Proposal/*.out
 Proposal/*.pdf
 Proposal/*.synctex.gz
+Documents/*
