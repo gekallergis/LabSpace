@@ -1,5 +1,4 @@
-*
-!imagery/*
-!*.tex
-!LICENSE
-!README.md
+Proposal/*.aux
+Proposal/*.log
+Proposal/*.pdf
+Proposal/*.synctex.gz
