@@ -1,6 +1,11 @@
-Proposal/*.aux
-Proposal/*.log
-Proposal/*.out
-Proposal/*.pdf
-Proposal/*.synctex.gz
+Standard/*.aux
+Standard/*.log
+Standard/*.out
+Standard/*.pdf
+Standard/*.synctex.gz
+Study/*.aux
+Study/*.log
+Study/*.out
+Study/*.pdf
+Study/*.synctex.gz
 Documents/*
