@@ -56,9 +56,9 @@ Each of the components is explained in more detail below:
 The different roles outside of LabSpace are defined as follows:
 
 \begin{itemize}[noitemsep]
-    \item \textit{Professor}. The person that is employed as a professor in either the \textit{implementing academic organization} or any \textit{other academic organization}.
-    \item \textit{Researcher}. The person that is employed as a researcher in either the \textit{implementing academic organization} or any \textit{other academic organization}.
-    \item \textit{Student}. The person that is studying at either the \textit{implementing academic organization} or any \textit{other academic organization}.
+    \item \textit{Professor}. The person that is employed as a professor in either the \textit{IAO} or any \textit{other academic organization}.
+    \item \textit{Researcher}. The person that is employed as a researcher in either the \textit{IAO} or any \textit{other academic organization}.
+    \item \textit{Student}. The person that is studying at either the \textit{IAO} or any \textit{other academic organization}.
     \item \textit{Professional}. The person that is or has been employed by one or more \textit{corporations} (see definition above) and is either representing his/her organization or is contributing to LabSpace as an individual.
     \item \textit{Enthusiast}. The person that belongs to none of the above categories, but still contributes to LabSpace either by providing resources (see \ref{sec:bm_res}) or by taking part in different activities  (see \ref{sec:bm_activities}).
 \end{itemize}
@@ -96,8 +96,8 @@ Treating LabSpace as a business itself, we can model its operational model using
 
 \begin{itemize}[noitemsep]
     \item The different stakeholders of LabSpace.
-    \item The channels required to reach each stakeholder from a marketing standpoint.
-    \item The relationships build between LabSpace and each of the stakeholders.
+    \item The types of channels required to reach each stakeholder from a marketing standpoint.
+    \item The type of relationships build between LabSpace and each of the stakeholders.
     \item The unique value proposition offered by LabSpace.
     \item The key activities necessary for normal operation.
     \item The key resources necessary for normal operation.
@@ -110,7 +110,7 @@ Since LabSpace is an open specification released under a Creative Commons licens
 % The Stakeholders %
 \subsubsection{The Stakeholders} \label{sec:bm_stakeholders}
 
-Stakeholders are the organizations or individuals that are immediately affected by the implementation of LabSpace and its operation. This section defines the responsibilities of each stakeholder in the LabSpace realm. Looking at Figure \ref{fig:ls_env} we can identify the stakeholders as follows:
+Stakeholders are the organizations or individuals that are immediately affected by the implementation of LabSpace and its operation. This section defines a basic set of responsibilities of each stakeholder in the LabSpace realm. Looking at Figure \ref{fig:ls_env} we can identify the stakeholders as follows:
 
 \begin{itemize}[noitemsep]
     \item The \textit{implementing academic organizations (IAOs)}.
@@ -123,15 +123,15 @@ Stakeholders are the organizations or individuals that are immediately affected 
     \item The \textit{socioeconomic environment}.
 \end{itemize}
 
-The \textit{IAOs} are affected by a LabSpace implementation in a number of different ways. First and foremost, they provide hosting for a particular implementation in terms of housing and other utility resources such as electricity. Access to the premises of LabSpace is granted by the \textit{IAO} based on the rules already in effect. Different \textit{IAOs} have different rules when it comes to accessing their premises so, a LabSpace implementation should always abide to the existing rules to ensure minimal disruption of the current operational state of the hosting academic organization. Secondly, the \textit{IAO} acts as a provider of key resources (see \ref{sec:bm_res}) whether it is material resources (i.e. projectors, lab equipment) or human resources (i.e. professors, researchers). Finally, possible integration of LabSpace with courses provided by the \textit{IAO} and research programs undertaken by it is also something that falls under the responsibilities of the \textit{IAO}.
+The \textit{IAOs} are affected by a LabSpace implementation in a number of different ways. First and foremost, they provide hosting for a particular implementation in terms of housing and other utility resources such as electricity. Access to the premises of LabSpace is granted by the \textit{IAO} based on the rules already in effect. Different \textit{IAOs} have different rules when it comes to accessing their premises so, a LabSpace implementation should always abide to the existing rules to ensure minimal disruption of the current operational state of the hosting academic organization. Secondly, the \textit{IAO} acts as a provider of key resources (see \ref{sec:bm_res}) that are needed by an infant LabSpace implementation to begin its life. The optional IT infrastructure a LabSpace might have could also be something provided by the IAOs own infrastructure, if one exists. Finally, possible integration of LabSpace with courses provided by the \textit{IAO} and research programs undertaken by it is also something that the \textit{IAO} itself must accept and allow. If rules in a specific IAO allow the integration to happen without any involvement by the IAO itslef, this route is always favored to speed up the process.
 
-The \textit{students} are the ones that have the responsibility of implementing and executing a LabSpace implementation. The viability of the space is tightly dependent on the motivation and enthusiasm shown by the students. After all, the whole idea of LabSpace is geared towards the professional and personal development of students. Most of the key activities required for the smooth operation of LabSpace (see \ref{sec:bm_activities}) are mainly carried out by the \textit{students} although cooperation with other stakeholders is always encouraged and sometimes required (e.g. when decisions have to be made that collide with already existing rules by the hosting organizations). Taking into account the borderless knowledge exchange scheme that lives at the heart of LabSpace, \textit{students} can also act as teachers, coaches and mentors to others. Finally, they can also act as providers of key resources (see \ref{sec:bm_res}) if they so desire.
+The \textit{students} are the ones that have the responsibility of implementing and executing a LabSpace implementation. The viability of the space is tightly dependent on the motivation and enthusiasm shown by the students. After all, the whole idea of LabSpace is geared towards the professional and personal development of students. Most of the key activities required for the smooth operation of LabSpace (see \ref{sec:bm_activities}) are mainly carried out by the \textit{students} although cooperation with other stakeholders is always encouraged and sometimes required (e.g. when \textit{students} wish to promote a course integration with LabSpace). Taking into account the borderless knowledge exchange scheme that lives at the heart of LabSpace, \textit{students} can also act as teachers, coaches and mentors to others. Finally, they can also act as providers of key resources (see \ref{sec:bm_res}) if they so desire.
 
-The \textit{professors} are the ones that are expected to teach, coach and mentor the most, inside of LabSpace. In the case of course and research program integrations the initial steps have to be taken by the \textit{professors} and accepted by the \textit{IAO} according to the rules currently in effect. Further maintenance of such integrations is considered to be the main role of a \textit{professor}. Although, \textit{professors} formally initiate such integrations, \textit{students} can request them as well. \textit{Professors} can also act as providers of key resources (see \ref{sec:bm_res}) if they so desire.
+The \textit{professors} are the ones that are expected to teach, coach and mentor the most inside of LabSpace. In the case of course and research program integrations, \textit{professors} can perform the initial steps required for the \textit{IAO} to accept and allow the execution of such a proposal. Further maintenance of such integrations is considered to be the main role of a \textit{professor} (i.e. the course material and organization inside the LabSpace context). \textit{Professors} can also act as providers of key resources (see \ref{sec:bm_res}) if they so desire.
 
-The \textit{researchers}, \textit{enthusiasts} and \textit{professionals} are also expected to teach, coach and mentor inside of a LabSpace implementation bringing in theoretical and practical experience that will help toward the development of \textit{spacers}. Similarly, they could also act as providers of key resources (see \ref{sec:bm_res}) if they so desire.
+The \textit{researchers}, \textit{enthusiasts} and \textit{professionals} are also expected to teach, coach and mentor inside of a LabSpace implementation bringing in theoretical and practical experience that will help towards the development of \textit{spacers}. Additionally, they can push for research program integrations with LabSpace in a way similar to the one \textit{professors} do. Finally, they could also act as providers of key resources (see \ref{sec:bm_res}) if they so desire.
 
-The \textit{corporations} are expected to bring the state of the art of their respective market into LabSpace. Real world projects can be brought into LabSpace giving everyone the chance to work on them and gain useful practical experience. The \textit{corporations} can be active in a LabSpace implementation through \textit{professionals} they employ or through \textit{professors} (or \textit{researchers}) they cooperate with. Of course, they could also act as providers of key resources (see \ref{sec:bm_res}) if they so desire.
+The \textit{corporations} are expected to bring the state of the art of their respective markets into LabSpace. Real world projects can be brought into LabSpace giving everyone the chance to work on them and gain useful practical experience. The scheme applied for this kind of labor provided by LabSace is closely guided by the relationship LabSpace wishes to establish with the particular stakeholder (see \ref{sec:bm_rel}). The \textit{corporations} can be active in a LabSpace implementation through \textit{professionals} they employ or through \textit{professors} (or \textit{researchers}) they cooperate with. Of course, they could also act as providers of key resources (see \ref{sec:bm_res}) if they so desire.
 
 Finally, the \textit{socioeconomic environment} into which LabSpace is active can prove of high importance. It could act as a provider of resources (i.e. material or monetary) or as a means of raising awareness and promoting the LabSpace idea in an attempt to engage the different stakeholders mentioned above.
 
@@ -148,23 +148,34 @@ Figure \ref{fig:ls_responsibilities} summarizes all of the above.
 
 \subsubsection{The Channels}
 
-The channels define the different ways different stakeholders can be reached in order to promote the LabSpace idea and engage them into action according to their responsibilities (see \ref{sec:bm_stakeholders}). For a specific implementation, it is important to first understand how each stakeholder prefers to be reached and how they are currently being reached by others for similar issues. The primary goal here is to identify the most efficient (in terms of cost and time) channel to reach stakeholders while ensuring minimal disturbance to their already existing activities. When interacting with stakeholders it is important to use the appropriate channel for the occasion. This means that, for example when raising awareness, a presentation or an explainer video might be enough for a specific stakeholder, but when evaluating the idea with a stakeholder trying to show the value it offers an explainer video might not be adequate.
+The channels define the different ways different stakeholders can be reached in order to promote the LabSpace idea and engage them into action according to their responsibilities (see \ref{sec:bm_stakeholders}). For a specific implementation, it is important to first understand how each stakeholder prefers to be reached and how they are currently being reached by others for similar issues. The primary goal here is to identify the most efficient (in terms of cost and time) channel to reach stakeholders while ensuring minimal disturbance to their already existing activities. When interacting with stakeholders it is important to use the appropriate channel for the occasion. This means that, for example when raising awareness, a presentation or an explainer video might be enough for a specific stakeholder, but when evaluating the idea trying to show the value it offers, an explainer video might not be adequate.
 
 We define five different phases of interaction with stakeholders that have to do with the different stages of evolution of LabSpace when an implementation is underway. These are the following,
 
-\begin{itemize}[noitemsep]
+\begin{enumerate}[noitemsep]
     \item \textit{Awareness}. The first phase, were we try to raise awareness and promote the idea of LabSpace to the different stakeholders.
     \item \textit{Evaluation}. The second phase, were we try to provide data to the stakeholders in order to prove the usefulness of the idea inside the current \textit{socioeconomic environment}.
     \item \textit{Commitment}. The third phase, were we get the stakeholders to commit to an implementation.
-    \item \textit{Action}. The fourth phase, were stakeholders start executing processes adherent to their responsibilities. Since there is no legal binding document signed between the LabSpace and the different stakeholders this phase acts as a validation of the commitment in phase three.
-    \item \textit{Maintenance}. The final phase, were communication is required to maintain a smooth cooperation between the different partied involved in the LabSpace implementation.
-\end{itemize}
+    \item \textit{Action}. The fourth phase, were stakeholders start executing processes adherent to their responsibilities.
+    \item \textit{Maintenance}. The final phase, were communication is required to maintain a smooth cooperation between the different parties involved in the LabSpace implementation.
+\end{enumerate}
 
-Examples of channels for the different stakeholders include but are not limited to social networks (i.e. Facebook, Twitter, LinkedIn etc.), landing pages, explainer videos, emails, brochures, TV ads, radio ads, word of mouth, direct phone calls, dedicated platforms for LabSpace coordination (this would be useful in the latre phases to facilitate more efficient communication when maintaining an implementation) and others. Of course, the limit here is only the imagination and creativity of the implementing team.
+ Since there is no legal binding document signed between the LabSpace and the different stakeholders, phase four acts as a validation of the commitment in phase three. Examples of channels for the different stakeholders include but are not limited to social networks (i.e. Facebook, Twitter, LinkedIn etc.), landing pages, explainer videos, emails, brochures, TV ads, radio ads, word of mouth, direct phone calls, dedicated platforms for LabSpace coordination (this would be more useful in the final phases to facilitate more efficient communication when an implementation is under maintenance) and others. Of course, the limit here is only the imagination and creativity of the implementing team. Anything that can be thought of as a valid way to achieve the goals of a specific implementation phase should be considered as long as it lies within the legal boundaries of the current \textit{socioeconomic environment}. Figure \ref{fig:implementation} describes the implementation steps referred to above. Note the iterative nature of the process that allows for the steps to be executed in parallel for different stakeholders and also to backtrack and reassess in case the implementation is not moving forward due to problems introduce in an earlier phase. This flexible scheme is proposed to allow the implementing team to proceed as they see fit depending on the \textit{socioeconomic environment} the implementation is taking place in.
 
-\subsubsection{The Relationships}
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[width=300px,height=\textheight,keepaspectratio]{imagery/ls_impl.png}
+    \caption{Stakeholders' Responsibilities.}
+    \label{fig:implementation}
+  \end{center}
+\end{figure}
 
-The relationships refer to the expected relationship the LabSpace will have with the stakeholders it affects. Relationships are closely linked with the channels since the use the latter to build on top of them. The kind of relationship a LabSpace implementation will have with a stakeholder greatly depends on the \textit{socioeconomic environment} of implementation and other factors such as the current rules in effect from the \textit{IAO}. Note that relationships include everything from dedicated support (i.e. for students) to business relationships and partnerships with \textit{corporations}.
+\subsubsection{The Relationships} \label{sec:bm_rel}
+
+The relationships refer to the expected relationship the LabSpace will have with its stakeholders. Relationships are closely linked with the channels since the use the latter to build on top of. The kind of relationship a LabSpace implementation will have with a stakeholder greatly depends on the \textit{socioeconomic environment} of implementation and other factors such as the current rules in effect from the \textit{IAO}. Note that relationships include everything from dedicated support (i.e. for students) to business relationships and partnerships with \textit{corporations}.
+
+Defining precise relationships that a LabSpace implementation should build with each stakeholder wouldn't be practical due to the variability of the socioeconomic environment of each implementation. Instead, we are going to focus on what would be a good idea to get out of each stakeholder as a minimum of an operating LabSpace.
+
 
 \subsubsection{The Value Proposition}
 
