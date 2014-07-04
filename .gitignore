@@ -1,11 +1,6 @@
-Specification/*.aux
-Specification/*.log
-Specification/*.out
-Specification/*.pdf
-Specification/*.synctex.gz
-Study/*.aux
-Study/*.log
-Study/*.out
-Study/*.pdf
-Study/*.synctex.gz
+*.aux
+*.log
+*.out
+*.pdf
+*.synctex.gz
 Documents/*
